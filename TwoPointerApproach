@@ -1,0 +1,85 @@
+// sum sum by 2 pointer approach 
+// // class Solution {
+// // public:
+// //     vector<int> twoSum(vector<int>& nums, int target) {
+// //         sort(nums.begin(), nums.end());
+// //         int left = 0;
+// //         int right = nums.size() - 1;
+// //         while (left <right) {
+// //             int sum = nums[left] + nums[right];
+// //             if(sum==target){
+// //                 return {left, right};
+                
+// //             }
+// //         }
+// //         return {};
+// //     }
+// // };
+
+// // vector<int> twoSum(vector<int>&, nums, int target) {
+// //     sort(nums.begin(), nums.end());
+// //     int left = 0;
+// //     int right = nums.size()-1;
+// //     while(left<right){
+// //         int sum=nums[left]+nums[right];
+// //         if(sum==target){
+// // return {left, right};
+// //         }else if(sum<target){
+// //             left++;
+// //         }else{
+// //             right--;
+
+// //         }
+// //         }
+// //     // check palindroem
+// // include <iostream>
+// //   using namespace std;
+// //    bool checkPalindrome(int arr[], int size){
+// //     int left = 0;
+// //     int right=size-1;
+// //     while (left<=right){
+// //       if(arr[left]==arr[right]) {
+// //           left++;
+// //           right--;
+          
+// //       } else{
+// //           return false;
+          
+// //       }
+    
+// //      }
+// //      return true;
+// // }
+   
+// //    int main(){
+// //        int arr[] = {8,9,7,9,8};
+// //        int size = 5 ;
+// //        bool ans = checkPalindrome; 
+// //        arr[arr,size];
+// //        cout<<"the given array is palindrome"<<ans<<endl;
+// //    }
+    
+
+// // TRUE IF SORTED AND FALSE IF NOT SORTED
+// #include<iostream>
+// using namespace std;
+//  bool isSorted(int arr[], int n){
+//     for(int i=0; i<n-1; i++){
+//         if(arr[i]>arr[i+1]){
+//             return false;
+
+
+//         }
+//     }
+//     return true;
+//  }    
+//     int main(){
+//         int arr[]={1,2,3,4,5};
+//         int n=sizeof(arr)/sizeof(arr[0]);
+//         if(isSorted(arr, n)){
+//             cout<<"Array is sorted"<<endl;
+//         }else{
+//             cout<<"Array is not sorted"<<endl;
+//         }
+//         return 0;
+//     } 
