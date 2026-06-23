@@ -1,0 +1,115 @@
+// // function - reusalble  block of code and avoid repetition of code
+// // no return no parameter
+// #include<iostream>
+// using namespace std;
+// void printAnjali(){
+//     cout<<"Anjali"<<endl;
+// }
+// int main(){
+//     printAnjali();
+//     printAnjali();
+//     printAnjali();
+//     return 0;
+// }
+
+// // return type parameter
+// #include <iostream>
+// using namespace std;
+// int add(int a, int b){
+//     return a+b;
+// }
+// int main(){
+//     int a,b;
+//     cin>>a>>b;
+//     cout<<add(a,b);
+
+// }
+
+// include <iostream>
+// using namespace std;
+// int printSum(int a,int b){
+    
+//     int sum=a+b;
+//     return sum;
+
+// }
+// int  main(){
+//     int sum=printSum(10,20);
+//     cout<<sum;
+// }
+
+
+// pararmeter but not return 
+// void great2(string name){
+//     cout<<"Hello, "<<name<<endl;
+// }
+// int main(){
+    
+//     great2("Anjali");
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int printFact(int n){
+//     int fact=1;
+//     for(int i=1; i<=n; i++){
+//         fact*=i;
+        
+//     }
+//     return fact;
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     cout<<printFact(n);
+//     return 0;
+// }
+
+// // pass by reference - here print copy of a 
+// #include <iostream>
+// using namespace std;
+// void abc(int a){
+// a=20;
+// }
+// int main(){
+//     int a=10;
+//     abc(a);
+//     cout<<a;
+//     return 0;
+// }
+// // here print address of a
+// #include <iostream>
+// using namespace std;
+// void abc(int &a){
+// a=20;
+// }
+// int main(){
+//     int a=10;
+//     abc(a);
+//     cout<<a;
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// void multiply(int a, int b){
+
+// }
+
+// two sum leetcode problem
+// #include <iostream>
+// using namespace std;
+// class Solution {
+//     public:
+//     vector<int> twoSum(vector<int>& nums, int target) {
+//         for(int i=0; i<nums.size(); i++){
+//             for(int j=i+1; j<nums.size(); j++){
+//                 if(nums[i]+nums[j]==target){
+//                     return {i, j};
+//                 }
+//             }
+//         }
+//         return {};
+//     }
+// }
