@@ -1,0 +1,121 @@
+// Array
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int marks[]={10,20,30,40,50};
+//     for(int i=0;i<5;i++){
+//         cout<<marks[i]<<" ";
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int marks[5];
+// for(int i=0;i<4;i++){
+//     cin>>marks[i];
+// }
+// for(int i=0;i<5;i++){
+
+//   cout<<marks[i]<<" ";
+// }
+// }
+
+// // 2 sum problem 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[]={1,2,3,4,5};
+//     int target=5;
+//     for(int i=0;i<5;i++){
+//         for(int j=i+1;j<5;j++){
+//             if(arr[i]+arr[j]==target){
+//                 cout<<i<<" "<<j<<endl;
+//             }
+//         }
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int data[5]={10,20};
+//     for(int i=0;i<5;i++){
+//         cout<<data[i]<<" ";
+//     }
+// }
+
+// // max of array
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int marks[]={10,20,30,40,50};
+//     int max=marks[0];
+//     for(int i=0; i<5; i++){
+//         if(marks[i]>max){
+//             max=marks[i];
+//         }
+//     }
+//     cout<<max;
+// }
+
+// // min of array
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int marks[]={10,20,30,40,50};
+//     int min=marks[0];
+//     for(int i=0; i<5; i++){
+//         if(marks[i]<min){
+//             min=marks[i];
+//         }
+//     }
+//     cout<<min;
+// }
+
+// float average(int arr[], int n){
+//     int sum=0;
+//     for(int i=0; i<n; i++){
+//         sum+=arr[i];
+//     }
+//     return (float)sum/n;
+// }
+
+// // for float average
+// float average = float(sum)/n;
+
+
+// 2D array
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int marks[3][3]={{90,80,70}};
+//     for(int i=0; i<3; i++){
+//         for(int j=0; j<3; j++){
+//             cout<<marks[i][j]<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// // min max sum in 2d
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int marks[3][3]={{90,80,70},{60,50,40},{30,20,10}};
+//     int min=marks[0][0];
+//     int max=marks[0][0];
+//     int sum=0;
+//     for(int i=0; i<3; i++){
+//         for(int j=0; j<3; j++){
+//             sum+=marks[i][j];
+//             if(marks[i][j]<min){
+//                 min=marks[i][j];
+
+//             }
+// }
+//     }
+//     cout<<"min: "<<min<<endl;
+//     cout<<"max: "<<max<<endl;
+//     cout<<"sum: "<<sum<<endl;
+// }
