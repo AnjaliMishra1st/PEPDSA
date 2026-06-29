@@ -1,0 +1,59 @@
+## basic recursive function code 
+#include <iostream>
+using namespace std;
+int recursiveFunction(int n){
+if(n==0){
+    return 0;
+}else{
+    cout<<n<<" ";
+    return recursiveFunction(n-1);
+}
+
+return 0;
+}
+int main(){
+    int n;
+    cin>>n;
+    recursiveFunction(n);
+    cout<<endl;
+}
+
+# # factorial 
+# factorial using recursion
+#include <iostream>
+using namespace std;
+int factorial(int n){
+    if(n==0 || n==1){
+        return 1;
+    }else{
+        return n*factorial(n-1);
+
+    }
+    }
+int main(){
+    int n;
+    cin>>n;
+    cout<<factorial(n);
+    return 0;
+}
+
+## recusio n - fibonacci series
+#include <iostream>
+using namespace std;
+
+int fibonacci(int n){
+    if(n==0){
+        return 0;
+    }else if(n==1){
+        return 1;
+    }else{
+        return fibonacci(n-1)+fibonacci(n-2);
+    }
+    return 0;
+}
+int main(){
+    int n;
+    cin>>n;
+    cout<<fibonacci(n);
+    return 0;
+}
