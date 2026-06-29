@@ -57,3 +57,20 @@ int main(){
     cout<<fibonacci(n);
     return 0;
 }
+
+## power function using recursion
+#include<iostream>
+using namespace std;
+
+int calculate(int base , int power){
+    if(power==0){
+        return 1;
+    }else{
+        return base * calculate(base, power - 1);
+    }
+}
+int main(){
+    int base, power;
+    cin>>power>>base;
+    cout<calculate(base, power);
+}
